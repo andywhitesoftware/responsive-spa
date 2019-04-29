@@ -1,0 +1,79 @@
+/* Navbar */
+#navbar .logo {
+  font-size: 2.5rem;
+  padding: 0;
+  padding-left: 1rem;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul li, #navbar ul li a {
+  display: block;
+  margin: 0;
+}
+
+#navbar ul {
+  padding: 0;
+}
+
+#navbar ul li {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+#navbar ul li:last-child {
+  padding-right: 1rem;
+}
+
+#navbar ul li a {
+  font-size: 1rem;
+  padding: 0;
+}
+
+/* Showcase */
+#showcase .showcase-content {
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+#showcase .lg-heading {
+  font-size: 3rem;
+}
+
+#showcase .headline {
+  font-size: 1.45rem;
+}
+
+/* About Me Section */
+#about {
+  height: 100%;
+}
+
+#about .about-container {
+  padding-top: 4rem;
+  margin: 0;
+}
+
+/* Services Section */
+#services {
+  height: 100%;
+}
+
+#services .services-container .service-items {
+  flex-direction: column;
+  padding: 0;
+  padding-top: 1.25rem;
+}
+
+#services .services-container .service-items .service-item {
+  padding: 0;
+}
+
+#services .services-container {
+  padding-top: 4rem;
+}

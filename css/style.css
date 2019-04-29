@@ -1,0 +1,174 @@
+:root {
+    --primary-color: #222F3D;
+    --secondary-color: rgb(50, 67, 85);
+    --text-color: #ddd;
+    --logo-color: #f67c1b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    background: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.container {
+  /* Container is for the navbar only */
+  background: var(--primary-color);
+  color: var(--text-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* Utility Classes */
+.lg-heading {
+    font-size: 4rem;
+    padding-top: 3rem;
+    line-height: 1.1;
+  }
+
+.headline {
+    font-size: 1.3rem;
+    padding-top: 3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.logo-color {
+    color: var(--logo-color);
+}
+
+.page {
+    height: 100vh;
+    padding: 0 1.5rem;
+  }
+
+/* Navbar and Logo */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+
+#navbar .logo {
+    font-size: 3.5rem;
+    padding: 0 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li:hover {
+    background: var(--logo-color);
+}
+
+#navbar ul li {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+    margin: 0;
+}
+
+#navbar ul li a {
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    margin: 0 0.25rem;   
+}
+
+/* Showcase */
+#showcase {
+    color: var(--text-color);
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 14rem;
+}
+
+/* About Me Section */
+#about .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7.25rem;
+    margin: 0;
+}
+
+#about {
+    color: var(--text-color);
+}
+
+#about .about-me {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+#about p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Services Section */
+#services {
+    color: var(--text-color);
+}
+
+#services .services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7.25rem;
+    padding-bottom: 2rem;
+}
+
+#services .my-services {
+    font-size: 2.5rem;
+}
+
+#services .services-container .service-items {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+#services .services-container .service-items .service-item {
+    flex: 1;
+    padding-bottom: 2.25rem;
+}
+
+#services .services-container .service-items .service-item h3 {
+    font-size: 1.75rem;
+}
+
+#services .services-container .service-items .service-item p {
+    font-size: 1.25rem;
+    padding-top: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
